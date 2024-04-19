@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h2{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 24px;
+    margin-top: 14px;
+}
+
+.box{
+    background: rgba(0, 0, 0, 0.7) url('/img/candidate.jpeg');
+    background-blend-mode: darken, luminosity;
+    background-size: 100% 100%;
+    content: "";
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 200px;
+    height: 180px;
+    color: #fff;
+    margin: 11px 23px;
+}
+
+.box:nth-child(2){
+    background: rgba(0, 0, 0, 0.7) url('/img/building.jpeg');
+    background-blend-mode: inherit;
+    background-size: 100% 100%;
+}
+
+.box h2{
+    text-align: center;
+    position: relative;
+    background-blend-mode: multiply;
+    top: 74px;
+    left: 6px;
+}
